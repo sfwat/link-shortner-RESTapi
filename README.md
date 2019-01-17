@@ -7,3 +7,4 @@ And through a PUT request the api update any of the platform original links by t
 #technologies used 
 python language, Flask framework
 MongoFrames a mongodb ODM
+In the command line enter the following command from the app directory to run it  flask run
