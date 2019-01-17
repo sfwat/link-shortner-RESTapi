@@ -1,10 +1,9 @@
 from flask import Flask, jsonify, request
 from pymongo import MongoClient
-from mongoframes.frames import Frame
 
-from helper import insert_data, update_data, show_data
 
-Frame._client = MongoClient('mongodb://localhost:27017/mydb')
+from data import insert_data, update_data, show_data
+
 
 app = Flask(__name__)
 
